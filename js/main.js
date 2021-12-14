@@ -9,5 +9,5 @@ btnValidate.addEventListener('click', () =>{
   let month = inputMonth.value;
   let day = inputDay.value;
   let year = inputYear.value;
-  result.innerText = moment('${month}/${day}/${year}','MM/DD/YYYY', true).isValid();
+  result.innerText = moment('${month}/${day}/${year}','MM/DD/YYYY',true).isValid();
 });

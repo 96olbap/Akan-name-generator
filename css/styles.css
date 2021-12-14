@@ -7,6 +7,25 @@
   width: 450px;
   margin: auto;
 }
+.navbar{
+  display: flex;
+  justify-content: center;
+  background-color: #cbcfd6;
+}
+.navbar ul{
+  display: flex;
+  list-style: none;
+  margin: 15px 0px;
+}
+.navbar ul li{
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+.navbar ul li a{
+  color: black;
+  padding: 8px 25px;
+}
+
 body{
   text-align: center;
 }
