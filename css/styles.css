@@ -10,7 +10,7 @@
 body{
   text-align: center;
 }
-input, button{
-  display: inline-block;
+.main-form button{
   padding: 10px 20px;
+  margin: 10px;
 }
