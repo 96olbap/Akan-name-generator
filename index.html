@@ -15,52 +15,54 @@
         <li><a href="#home">Home</a></li>
       </ul>
     </nav>
-
-    <section id="about">
-      <div class="main">
-        <h1 class="headings">Akan Name Generator</h1>
+    <div class="container">
+      <div class="card">
+        <section id="about">
+          <div class="main">
+            <h1 class="headings">Akan Name Generator</h1>
+            <br>
+            <h2 class="headings">Generate your Akan name below. <br>
+            Akan names are derived from Ghanian culture. <br>
+            Frequently in Ghana, children are given their first name as a 'day name' which corresponds to the day in the week they were born. <br>
+            Follow a few simple steps outlined below to generate your very own Akan name!</h2>
+          </div>
+        </section>
         <br>
-        <h2 class="headings">Generate your Akan name below. <br>
-        Akan names are derived from Ghanian culture. <br>
-        Frequently in Ghana, children are given their first name as a 'day name' which corresponds to the day in the week they were born. <br>
-        Follow a few simple steps outlined below to generate your very own Akan name!</h2>
+        <br>
+        <br>
+        <section id="Home">
+          <form name="myForm" method="get" class="main-form">
+            <h2 class="headings">Enter your Date of Birth:</h2>
+            <div class="row">
+              <div class="col">
+                <label for="month">Month</label>
+                <input type="text" placeholder="MM" id="month" class="form-control">
+              </div>
+              <div class="col">
+                <label for="day">Day</label>
+                <input type="text" placeholder="DD" id="day" class="form-control">
+              </div>
+              <div class="col">
+                <label for="year">Year</label>
+                <input type="text" placeholder="YYYY" id="year" class="form-control">
+              </div>
+              <br>
+              <br>
+              <button>Validate</button>
+              <p>Result:</p>
+            </div>
+            <br>
+            <h2 class="headings">Enter your Gender:</h2>
+            <select name="gender" id="gender" class="form-control">
+              <option value="male">Male</option>
+              <option value="female">Female</option>
+            </select>
+            <br>
+            <br>
+          </form>
+        </section>
       </div>
-    </section>
-    <br>
-    <br>
-    <br>
-    <section id="Home">
-      <form name="myForm" method="get" class="main-form">
-        <h2 class="headings">Enter your Date of Birth:</h2>
-        <div class="row">
-          <div class="col">
-            <label for="month">Month</label>
-            <input type="text" placeholder="MM" id="month" class="form-control">
-          </div>
-          <div class="col">
-            <label for="day">Day</label>
-            <input type="text" placeholder="DD" id="day" class="form-control">
-          </div>
-          <div class="col">
-            <label for="year">Year</label>
-            <input type="text" placeholder="YYYY" id="year" class="form-control">
-          </div>
-          <br>
-          <br>
-          <button>Validate</button>
-          <p>Result:</p>
-        </div>
-        <br>
-        <h2 class="headings">Enter your Gender:</h2>
-        <select name="gender" id="gender" class="form-control">
-          <option value="male">Male</option>
-          <option value="female">Female</option>
-        </select>
-        <br>
-        <br>
-      </form>
-    </section>
-
+    </div>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment.min.js"></script>
     <script src="js/main.js"></script>
   </body>
