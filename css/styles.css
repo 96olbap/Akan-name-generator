@@ -24,6 +24,7 @@
 .navbar ul li a{
   color: black;
   padding: 8px 25px;
+  border: 2px solid black;
 }
 
 body{
@@ -35,4 +36,5 @@ body{
 }
 .card{
   background-color: teal;
+  border: 2px solid black;
 }
