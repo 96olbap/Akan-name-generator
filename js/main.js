@@ -28,6 +28,31 @@ function generateName(){
     var date = (((cc/4) -2*cc-1) + ((5*yy/4)) + ((26*(mm+1)/10)) + dd) %7
     var dDay = Math.ceil(date);
 
+    function checkBirthDay(){
+      var bDay = dDay;
+      if (bDay == 0){
+        return "Sunday"
+      }
+      else if (bDay == 1) {
+        return "Monday"
+      }
+      else if (bDay == 2) {
+        return "Tuesday"
+      }
+      else if (bDay == 3) {
+        return "Wednesday"
+      }
+      else if (bDay == 4) {
+        return "Thursday"
+      }
+      else if (bDay == 5) {
+        return "Friday"
+      }
+      else if (bDay == 6) {
+        return "Saturday"
+      }
+    }
+
     if (female.checked == true){
       var femaleAkanName;
       switch(dDay){
@@ -35,7 +60,7 @@ function generateName(){
             femaleAkanName = 'Akosua';
             break;
         case 1:
-            femaleAkanName = "Adowa";
+            femaleAkanName = "Adwoa";
             break;
         case 2:
             femaleAkanName = "Abeena";
@@ -52,6 +77,7 @@ function generateName(){
             femaleAkanName = "Ama";
             break;
       }
+      
     }
   }
 
