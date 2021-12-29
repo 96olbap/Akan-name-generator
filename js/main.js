@@ -27,7 +27,32 @@ function generateName(){
     var cc = parseInt(year.slice(0,2));
     var date = (((cc/4) -2*cc-1) + ((5*yy/4)) + ((26*(mm+1)/10)) + dd) %7
     var dDay = Math.ceil(date);
-  }
 
+    if (female.checked == true){
+      var femaleAkanName;
+      switch(dDay){
+        case 0:
+            femaleAkanName = 'Akosua';
+            break;
+        case 1:
+            femaleAkanName = "Adowa";
+            break;
+        case 2:
+            femaleAkanName = "Abeena";
+            break;
+        case 3:
+            femaleAkanName = "Akua";
+            break;
+        case 4:
+            femaleAkanName = "Yaa";
+            break;
+        case 5:
+            femaleAkanName = "Afua";
+        case 6:
+            femaleAkanName = "Ama";
+            break;
+      }
+    }
+  }
 
 }
