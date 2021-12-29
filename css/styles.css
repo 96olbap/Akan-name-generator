@@ -7,6 +7,7 @@
   width: 450px;
   margin: auto;
 }
+/*
 .navbar{
   display: flex;
   justify-content: center;
@@ -25,10 +26,11 @@
   color: black;
   padding: 8px 25px;
   border: 2px solid black;
-}
+} */
 
 body{
   text-align: center;
+  background-color: black;
 }
 .main-form button{
   padding: 10px 20px;
@@ -37,4 +39,15 @@ body{
 .card{
   background-color: teal;
   border: 2px solid black;
+}
+.gender{
+  width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.gender label {
+  
 }

@@ -9,12 +9,6 @@
     <link rel="stylesheet" href="css/styles.css" type="text/css">
   </head>
   <body>
-    <nav class="navbar">
-      <ul>
-        <li><a href="#about">About</a></li>
-        <li><a href="#home">Home</a></li>
-      </ul>
-    </nav>
     <div class="container">
       <div class="card">
         <section id="about">
@@ -27,8 +21,6 @@
             Follow a few simple steps outlined below to generate your very own Akan name!</h2>
           </div>
         </section>
-        <br>
-        <br>
         <br>
         <section id="Home">
           <form name="myForm" method="get" class="main-form">
@@ -49,15 +41,17 @@
               <br>
               <br>
               <button onclick="validateDate()">Validate</button>
-              <p>Result:</p>
             </div>
             <br>
-            <h2 class="headings">Enter your Gender:</h2>
-            <select name="gender" id="gender" class="form-control">
-              <option value="male">Male</option>
-              <option value="female">Female</option>
-            </select>
-            <input type="button" name="btn" value="check" onclick="checkGender()">
+          <div class=gender>
+              <label for="gender">Gender</label><br>
+              <input type="radio" id="male" value="  Male" name="gender">
+              <label for="male">Male</label><br>
+              <input type="radio" id="female" value="Female" name="gender">
+              <label for="female">Female</label><br>
+          </div>
+          <button onclick="generateName()">Generate Akan name</button>
+
             <br>
             <br>
           </form>
