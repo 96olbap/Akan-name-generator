@@ -77,7 +77,8 @@ function generateName(){
             femaleAkanName = "Ama";
             break;
       }
-      document.getElementById('output').innerHTML = "You were born on a "+" "+ checkBirthDay(), "Your Akan Name is "+" "+femaleAkanName;
+      //alert(femaleAkanName);
+      document.getElementById("output").innerHTML = "Your Akan Name is "+" "+femaleAkanName;
     }
     if (male.checked == true){
       var maleAkanName;
@@ -103,8 +104,9 @@ function generateName(){
             maleAkanName = "Kwame";
             break;
       }
-      document.getElementById('output').innerHTML = "You were born on a "+" "+ checkBirthDay(), "Your Akan Name is "+" " + maleAkanName;
+      //alert(maleAkanName);
+      document.getElementById('output').innerHTML ="Your Akan Name is "+" " + maleAkanName;
     }
   }
-
+  birthday ()
 }
