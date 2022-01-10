@@ -57,17 +57,29 @@ body{
   border: 2px solid white;
   border-radius: 20px;
 }
+#month:hover{
+  background-color: white;
+  color: black;
+}
 #day{
   background-color: black;
   color: white;
   border: 2px solid white;
   border-radius: 20px;
 }
+#day:hover{
+  background-color: white;
+  color: black;
+}
 #year{
   background-color: black;
   color: white;
   border: 2px solid white;
   border-radius: 20px;
+}
+#year:hover{
+  background-color: white;
+  color: black;
 }
 .card{
   background-color: black;
