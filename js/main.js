@@ -56,28 +56,29 @@ function generateName(){
     var femaleAkanName;
     switch(dDay){
       case 0:
-          femaleAkanName = 'Akosua';
-          break;
+        femaleAkanName = 'Akosua';
+        break;
       case 1:
-          femaleAkanName = "Adwoa";
-          break;
+        femaleAkanName = "Adwoa";
+        break;
       case 2:
-          femaleAkanName = "Abeena";
-          break;
+        femaleAkanName = "Abeena";
+        break;
       case 3:
-          femaleAkanName = "Akua";
-          break;
+        femaleAkanName = "Akua";
+        break;
       case 4:
-          femaleAkanName = "Yaa";
-          break;
+        femaleAkanName = "Yaa";
+        break;
       case 5:
-          femaleAkanName = "Afua";
+        femaleAkanName = "Afua";
+        break;
       case 6:
-          femaleAkanName = "Ama";
-          break;
+        femaleAkanName = "Ama";
+        break;
     }
     //alert(femaleAkanName);
-    document.getElementById("output").innerHTML = "Your Akan Name is "+" "+femaleAkanName;
+    document.getElementById("output").innerHTML = "Your Akan Name is "+" " + femaleAkanName;
   }
     if (male.checked == true){
       var maleAkanName;
@@ -107,8 +108,5 @@ function generateName(){
       //alert(maleAkanName);
       document.getElementById('output').innerHTML ="Your Akan Name is "+" " + maleAkanName;
     }
+    generateName()
   }
-
-
-  generateName()
-}
