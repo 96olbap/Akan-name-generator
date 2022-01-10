@@ -4,7 +4,7 @@
   box-sizing: border-box;
 }
 .main-form{
-  width: 450px;
+  width: 400px;
   margin: auto;
 }
 
@@ -16,6 +16,10 @@
 .headings h1{
   display: flex;
   justify-content: flex-start;
+}
+.navbar{
+  float: left;
+  width: 30%;
 }
 .navbar ul{
   display: flex;
@@ -29,11 +33,12 @@
 .navbar ul li a{
   color: white;
   padding: 8px 25px;
-  border: 2px solid black;
+  border: 2px;
+  border-radius: 10px;
 }
 .navbar ul li a:hover{
-  background-color: black;
-  color: white;
+  background-color: grey;
+  color: black;
 }
 body{
   text-align: center;
@@ -81,6 +86,16 @@ body{
   background-color: white;
   color: black;
 }
+.ninja{
+  /*border: 1px solid white;
+  border-radius: 5px;*/
+  margin: 15px;
+}
+.mdem{
+  /*border: 1px solid white;
+  border-radius: 5px;*/
+  margin: 15px;
+}
 .card{
   background-color: black;
   border: 2px solid black;
@@ -93,7 +108,13 @@ body{
   background-color: transparent;
   color: white;
 }
-
+#Home{
+  border: 1px solid white;
+  border-radius: 20px;
+}
+.container{
+  border-width: 4px 1.25em;
+}
 /*.gender{
   width: 100%;
     display: flex;
