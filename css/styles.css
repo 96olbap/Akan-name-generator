@@ -51,6 +51,24 @@ body{
   background-color: white;
   color: black;
 }
+#month{
+  background-color: black;
+  color: white;
+  border: 2px solid white;
+  border-radius: 20px;
+}
+#day{
+  background-color: black;
+  color: white;
+  border: 2px solid white;
+  border-radius: 20px;
+}
+#year{
+  background-color: black;
+  color: white;
+  border: 2px solid white;
+  border-radius: 20px;
+}
 .card{
   background-color: black;
   border: 2px solid black;
