@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="referrer" content="unsafe-url" />
+<meta name="robots" content="noindex" />
+<meta name="robots" content="noarchive" />
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+<link rel="dns-prefetch" href="https://cloud.antibot.cloud" />
+<link rel="dns-prefetch" href="https://alt.antibot.cloud" />
+<link rel="icon" href="/favicon.ico">
+<title>Just a moment...</title>
+<style>
+html, body {width: 100%; height: 100%; margin: 0; padding: 0;}
+body {background-color: #ffffff; font-family: Helvetica, Arial, sans-serif; font-size: 100%;}
+h1 {font-size: 1.5em; color: #404040; text-align: center;}
+p {font-size: 1em; color: #404040; text-align: center; margin: 10px 0 0 0;}
+.attribution {margin-top: 20px;}
+@-webkit-keyframes bubbles { 33%: { -webkit-transform: translateY(10px); transform: translateY(10px); } 66% { -webkit-transform: translateY(-10px); transform: translateY(-10px); } 100% { -webkit-transform: translateY(0); transform: translateY(0); } }
+@keyframes bubbles { 33%: { -webkit-transform: translateY(10px); transform: translateY(10px); } 66% { -webkit-transform: translateY(-10px); transform: translateY(-10px); } 100% { -webkit-transform: translateY(0); transform: translateY(0); } }
+.bubbles { background-color: #404040; width:15px; height: 15px; margin:2px; border-radius:100%; -webkit-animation:bubbles 0.6s 0.07s infinite ease-in-out; animation:bubbles 0.6s 0.07s infinite ease-in-out; -webkit-animation-fill-mode:both; animation-fill-mode:both; display:inline-block; }
+.btn-success {border: 2px solid transparent; background: #28a745; color: #ffffff; font-size: 18px; line-height: 15px; padding: 10px 10px; text-decoration: none; text-shadow: none; border-radius: 3px; box-shadow: none; transition: 0.25s; display: block; margin: 0 auto;}
+.btn-success:hover {background-color: #218838;}
+  </style>
+<script async src='/cdn-cgi/challenge-platform/h/b/scripts/invisible.js'></script></head>
+<body>
+<table style="width:100%; height:100%; padding:20px;">
+<tr>
+<td style="vertical-align:middle; text-align:center;">
+<noscript><h1 style="color:#bd2426;">Please turn JavaScript on and reload the page.</h1></noscript>
+<div id="cf-content">
+<div>
+<div class="bubbles"></div>
+<div class="bubbles"></div>
+<div class="bubbles"></div>
+</div>
+<h1>Checking your browser before accessing the website.</h1>
+<p>This process is automatic. Your browser will redirect to your requested content shortly.</p>
+<p id="btn">Please wait a few seconds.</p>
+<p id="error" style="color:red;"></p>
+</div>
+<div id="iframe"></div>
+</td>
+</tr>
+</table>
+<script type="bed250e1f51df9915aa33d2d-text/javascript">userip = "41.57.99.190";</script>
+
+
+<style>
+.btn-color {border: 2px solid transparent; cursor: pointer; font-size: 18px; line-height: 15px; padding: 15px 15px; text-decoration: none; text-shadow: none; border-radius: 3px; box-shadow: none; transition: 0.25s; display: block; margin: 0 auto;}
+.btn-color:hover {line-height: 16px; padding: 16px 16px; border: 1px solid #ccc;}
+</style>
+<a href="https://xaxaxa.antibot.cloud/">  </a>
+<script type="bed250e1f51df9915aa33d2d-text/javascript">
+if (window.location.hostname !== window.atob("Y29vbHdhbGxwYXBlcnMubWU=") && window.location.hostname !== window.atob("")) {
+window.location = window.atob("aHR0cDovL2Nvb2x3YWxscGFwZXJzLm1lLzMxMDA1MTktYWZyaWNhX2FmcmljYW4tY2hpbGRfYmFieV9iYWNrZ3JvdW5kX2JpcnRoX2JsYWNrX2JsYWNrLWFuZC13aGl0ZV9ib3lfY2hpbGRfY2hpbGQtY2hpbGRfY2hpbGRyZW5zLWdhbS5odG1s");
+throw "stop";
+}
+</script>
+<script type="bed250e1f51df9915aa33d2d-text/javascript">
+setTimeout(Button, 3000);
+
+var country = 'KE';
+var action = 'coolwallpapersme';
+var h1 = '43bb331141b4d201c5257e5808ff3d08';
+var h2 = '3307fad521a12379e9c9d1c9818c071e';
+var ip = '41.57.99';
+var via = '';
+var v = '7.019';
+var re = '0';
+var ho = '0';
+var cid = '1641838369.3477';
+var ptr = '41.57.99.190';
+var width = screen.width;
+var height = screen.height;
+var cwidth = document.documentElement.clientWidth;
+var cheight = document.documentElement.clientHeight;
+var colordepth = screen.colorDepth;
+var pixeldepth = screen.pixelDepth;
+var phpreferrer = '';
+var referrer = document.referrer;
+if (referrer != '') {var referrer = document.referrer.split('/')[2].split(':')[0];}
+
+function nore() {
+//document.getElementById("btn").innerHTML = '✓✓✕';
+var token = '0';
+var data = 'country='+country+'&action='+action+'&token='+token+'&h1='+h1+'&h2='+h2+'&ip='+ip+'&via='+via+'&v='+v+'&re='+re+'&ho='+ho+'&cid='+cid+'&ptr='+ptr+'&w='+width+'&h='+height+'&cw='+cwidth+'&ch='+cheight+'&co='+colordepth+'&pi='+pixeldepth+'&ref='+referrer;
+CloudTest(window.atob('L2FudGlib3Rsb2NhbC9hYi5waHA='), 4000, data, 0);
+}
+setTimeout(nore, 0000);
+
+function Button() {
+document.getElementById("btn").innerHTML = window.atob("PGZvcm0gYWN0aW9uPSIvMzEwMDUxOS1hZnJpY2FfYWZyaWNhbi1jaGlsZF9iYWJ5X2JhY2tncm91bmRfYmlydGhfYmxhY2tfYmxhY2stYW5kLXdoaXRlX2JveV9jaGlsZF9jaGlsZC1jaGlsZF9jaGlsZHJlbnMtZ2FtLmh0bWwiIG1ldGhvZD0icG9zdCI+PGlucHV0IG5hbWU9InRpbWUiIHR5cGU9ImhpZGRlbiIgdmFsdWU9IjE2NDE4MzgzNjkiPjxpbnB1dCBuYW1lPSJhbnRpYm90IiB0eXBlPSJoaWRkZW4iIHZhbHVlPSI4NjQ2NjY3NDhiMTgyMDNlMjE5YTRjOTk2MjE3N2Q3NCI+PGlucHV0IG5hbWU9ImNpZCIgdHlwZT0iaGlkZGVuIiB2YWx1ZT0iMTY0MTgzODM2OS4zNDc3Ij48aW5wdXQgc3R5bGU9ImN1cnNvcjogcG9pbnRlcjsiIGNsYXNzPSJidG4gYnRuLXN1Y2Nlc3MiIHR5cGU9InN1Ym1pdCIgbmFtZT0ic3VibWl0IiB2YWx1ZT0iQ2xpY2sgdG8gY29udGludWUiPjwvZm9ybT4=");
+document.getElementsByName('submit')[0].value = "Click to continue";	
+}
+
+function CloudTest(s, t, d, b){
+var cloud = new XMLHttpRequest();
+cloud.open("POST", s, true)
+cloud.setRequestHeader('Content-type', 'application/x-www-form-urlencoded;');
+cloud.timeout = t; // time in milliseconds
+
+cloud.onload = function () {
+if(cloud.status == 200) {
+//document.getElementById("btn").innerHTML = '✓✓✓';
+  console.log('good: '+cloud.status);
+var obj = JSON.parse(this.responseText);
+if (typeof(obj.error) == "string") {
+document.getElementById("error").innerHTML = obj.error;
+}
+if (typeof(obj.cookie) == "string") {
+document.getElementById("btn").innerHTML = "Loading page, please wait...";
+var d = new Date();
+d.setTime(d.getTime() + (10 * 24 * 60 * 60 * 1000));
+var expires = "expires="+ d.toUTCString();
+document.cookie = "antibot_cfd9498090b6590cb845fdce03560042="+obj.cookie+"; " + expires + "; path=/;";
+document.cookie = "lastcid="+obj.cid+"; " + expires + "; path=/;";
+location.reload(true);
+} else {
+Button();
+console.log('bad bot');
+}
+} else {
+//document.getElementById("btn").innerHTML = '✓✓✕';
+  console.log('other error');
+  if (b == 1) {Button();} else {CloudTest(window.atob('L2FudGlib3Rsb2NhbC9hYi5waHA='), 4000, d, 1);}
+}
+};
+cloud.onerror = function(){
+//document.getElementById("btn").innerHTML = '✓✓✕';
+	console.log("error: "+cloud.status);
+	if (b == 1) {Button();} else {CloudTest(window.atob('L2FudGlib3Rsb2NhbC9hYi5waHA='), 4000, d, 1);}
+}
+cloud.ontimeout = function () {
+  // timeout
+//document.getElementById("btn").innerHTML = '✓✓✕';
+  console.log('timeout');
+  if (b == 1) {Button();} else {CloudTest(window.atob('L2FudGlib3Rsb2NhbC9hYi5waHA='), 4000, d, 1);}
+};
+cloud.send(d);
+}
+</script>
+<script src="/cdn-cgi/scripts/7d0fa10a/cloudflare-static/rocket-loader.min.js" data-cf-settings="bed250e1f51df9915aa33d2d-|49" defer=""></script><script type="text/javascript">(function(){window['__CF$cv$params']={r:'6cb7e02e2cef0546',m:'5CD8XG2qEbT7XJV9MWh1cqPkiuqBBGUilBixNlDrGBw-1641838370-0-ARkYO0oy4PItzS24TcgYymng3KbEfqgHR0TwCZVE4iNhEyULyMA0TmevYd1ZcXEvywWhk0hby4s5aUjzBe+6tdufDpOTKW5XO4aW2cW7ZRMuu6SUN/46rnaLgpt81LDzFAJ4QKyPt0/kpp/NIqOoS5c8k0MoAuZcDuz+ZrEP96XyKS7xh07K9LFropLtZnCsILegyw3HxcaniGt3sj6HhUo2hCu0+X+Qn+G1gXVS1amh0hgalHuADdB8jHE3olUVr1Aovhy3Su55NJpstXHy/LE=',s:[0xd641c59f9d,0xb46e12b9e2],u:'/cdn-cgi/challenge-platform/h/b'}})();</script></body>
+</html>
