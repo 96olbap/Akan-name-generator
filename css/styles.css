@@ -53,9 +53,28 @@ body{
   border-radius: 20px;
 }
 .main-form button:hover{
-  background-color: white;
+  background-color: grey;
   color: black;
 }
+/*
+.inp{
+  padding: 5px 20px;
+  margin: 5px;
+  align-self: center;
+  background-color: black;
+  color: white;
+  border: 2px solid white;
+  border-radius: 20px;
+}
+.inp:hover{
+  background-color: grey;
+  color: black;
+}
+.inp > inp1{
+  background-color: black;
+  color: white;
+  border-block-color: transparent;
+}*/
 #month{
   background-color: black;
   color: white;
@@ -115,10 +134,19 @@ body{
 .container{
   border-width: 4px 1.25em;
 }
+.output{
+  background-color: grey;
+  color: black;
+}
 /*.gender{
   width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
+}
+.body{
+  background:url('images/bgrnd5.jpg');
+  hrignt: 100%;
+
 }*/

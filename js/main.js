@@ -1,7 +1,7 @@
 function validateDate(){
-  let monthValid = document.getElementById('month').value;
-  let dayValid = document.getElementById('day').value;
-  let yearValid = document.getElementById('year').value;
+  var monthValid = document.getElementById('month').value;
+  var dayValid= document.getElementById('day').value;
+  var yearValid = document.getElementById('year').value;
 
   if (monthValid <= 0 || monthValid > 12) {
     alert('please enter a valid month');
@@ -9,16 +9,23 @@ function validateDate(){
     alert('please enter a valid day');
   }else {
     var birthDay = function(month, day, year) {
-      var month = document.getElementById('month').value;
-      var day = document.getElementById('day').value;
-      var year = document.getElementById('year').value;
-
+      var monthValid = document.getElementById('month').value;
+      var dayValid = document.getElementById('day').value;
+      var yearValid = document.getElementById('year').value;
+/*
       var yy = parseInt(year.toString().slice(-2));
       var mm = parseInt(month);
       var dd = parseInt(day);
       var cc = parseInt(year.toString().slice(0,2));
       var date = ( ( (cc/4) -2*cc-1) + ((5*yy/4) ) + ((26*(mm+1)/10)) + dd ) %7
       var dDay = Math.ceil(date);
+      */
+      var yy = parseInt(year.slice(-2));
+      var mm = parseInt(month);
+      var dd = parseInt(date);
+      var cc = parseInt(year.slice(0,2));
+      var day =  ( ( (cc/4) -2*cc-1) + ((5*yy/4) ) + ((26*(mm+1)/10)) + dd ) %7
+      var dDay=Math.ceil(day);
 
       /*function generateName(){ */
       var gender = document.querySelector('input[type = "radio"]:checked').value;
@@ -74,7 +81,7 @@ function validateDate(){
             break;
         }
         //alert(femaleAkanName);
-        document.getElementById("output").innerHTML = "Your Akan Name is "+" " + femaleAkanName;
+        document.querySelector('output').innerHTML = 'Your Akan Name is' + ' ' + femaleAkanName;
       }
       if (male.checked == true){
         var maleAkanName;
@@ -102,7 +109,7 @@ function validateDate(){
             break;
         }
         //alert(maleAkanName);
-        document.getElementById('output').innerHTML = "Your Akan Name is "+" " + maleAkanName;
+        document.querySelector('output').innerHTML = 'Your Akan Name is' + ' ' + maleAkanName;
       }
       /*}*/
     }
