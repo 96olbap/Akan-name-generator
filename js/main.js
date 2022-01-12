@@ -20,17 +20,21 @@ function validateDate(){
       var date = ( ( (cc/4) -2*cc-1) + ((5*yy/4) ) + ((26*(mm+1)/10)) + dd ) %7
       var dDay = Math.ceil(date);
       */
-      var yy = parseInt(year.slice(-2));
-      var mm = parseInt(month);
-      var dd = parseInt(date);
-      var cc = parseInt(year.slice(0,2));
+      var yy = parseInt(yearValid.slice(-2));
+      var mm = parseInt(monthValid);
+      var dd = parseInt(dayValid);
+      var cc = parseInt(yearValid.slice(0,2));
+      console.log(yy);
+      console.log(mm);
+      console.log(dd);
+      console.log(cc);
+
       var day =  ( ( (cc/4) -2*cc-1) + ((5*yy/4) ) + ((26*(mm+1)/10)) + dd ) %7
       var dDay=Math.ceil(day);
 
       /*function generateName(){ */
-      var gender = document.querySelector('input[type = "radio"]:checked').value;
-      var female = getElementById('female');
-      var male = getElementById('male')
+      var gender = document.querySelector('input[name="gender"]:checked').value;
+      console.log(gender);
       function checkBirthDay(){
         var bDay = dDay;
         if (bDay == 0){
@@ -81,7 +85,7 @@ function validateDate(){
             break;
         }
         //alert(femaleAkanName);
-        document.querySelector('output').innerHTML = 'Your Akan Name is' + ' ' + femaleAkanName;
+        document.querySelector('.output').innerHTML = 'Your Akan Name is' + ' ' + femaleAkanName;
       }
       if (male.checked == true){
         var maleAkanName;
@@ -109,7 +113,7 @@ function validateDate(){
             break;
         }
         //alert(maleAkanName);
-        document.querySelector('output').innerHTML = 'Your Akan Name is' + ' ' + maleAkanName;
+        document.querySelector('.output').innerHTML = 'Your Akan Name is' + ' ' + maleAkanName;
       }
       /*}*/
     }

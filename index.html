@@ -15,70 +15,72 @@
     </style>
   </head>
   <body>
-    <nav class=navbar>
-      <img src="images/myLogo.png" alt="" width="40" height="45" border="0">
-      <h1 class="headings">Akan Name Generator</h1>
-      <ul>
-        <li><a href="#about">About</a></li>
-        <li><a href="#Home">Home</a></li>
-      </ul>
-    </nav>
-    <div class="container">
-      <div class="card">
-        <section id="about">
-          <div class="main">
-            <br>
-            <h2 class="headings"><br>
-            Akan names are derived from Ghanian culture.</h2> <br>
-            <h3 class-"headings">Frequently in Ghana, children are given their first name as a 'day name' which corresponds to the day in the week they were born. <br>
-            Follow a few simple steps outlined below to generate your very own Akan name!</h3>
-          </div>
-        </section>
-        <br>
-        <section id="Home">
-          <form name="myForm" method="get" class="main-form">
-            <h2 class="headings">Enter your Date of Birth:</h2>
-            <div class="row">
-              <div class="col">
-                <label for="month">Month</label>
-                <input type="text" placeholder="MM" id="month" class="form-control">
-              </div>
-              <div class="col">
-                <label for="day">Day</label>
-                <input type="text" placeholder="DD" id="day" class="form-control">
-              </div>
-              <div class="col">
-                <label for="year">Year</label>
-                <input type="text" placeholder="YYYY" id="year" class="form-control">
-              </div>
+    <div class="container-fluid">
+      <nav class="navbar container-fluid">
+        <img src="images/myLogo.png" alt="" width="40" height="45" border="0">
+        <h1 class="headings">Akan Name Generator</h1>
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#Home">Home</a></li>
+        </ul>
+      </nav>
+      <div class="container">
+        <div class="card">
+          <section id="about">
+            <div class="main">
               <br>
-              <br>
+              <h2 class="headings"><br>
+              Akan names are derived from Ghanian culture.</h2> <br>
+              <h3 class-"headings">Frequently in Ghana, children are given their first name as a 'day name' which corresponds to the day in the week they were born. <br>
+              Follow a few simple steps outlined below to generate your very own Akan name!</h3>
             </div>
-            <br>
-            <div class=gender>
-              <label for="gender">Select your Gender</label><br>
+          </section>
+          <br>
+          <section id="Home">
+            <form name="myForm" method="get" class="main-form">
+              <h2 class="headings">Enter your Date of Birth:</h2>
               <div class="row">
                 <div class="col">
-                  <input type="radio" id="male" value="  Male" name="gender">
-                  <label class="ninja"for=male">Male</label>
+                  <label for="month">Month</label>
+                  <input type="text" placeholder="MM" id="month" class="form-control">
                 </div>
                 <div class="col">
-                  <input type="radio" id="female" value="Female" name="gender">
-                  <label class="mdem"for=female">Female</label>
+                  <label for="day">Day</label>
+                  <input type="text" placeholder="DD" id="day" class="form-control">
+                </div>
+                <div class="col">
+                  <label for="year">Year</label>
+                  <input type="text" placeholder="YYYY" id="year" class="form-control">
+                </div>
+                <br>
+                <br>
+              </div>
+              <br>
+              <div class=gender>
+                <label for="gender">Select your Gender</label><br>
+                <div class="row">
+                  <div class="col">
+                    <input type="radio" id="male" value="  Male" name="gender">
+                    <label class="ninja"for=male">Male</label>
+                  </div>
+                  <div class="col">
+                    <input type="radio" id="female" value="Female" name="gender">
+                    <label class="mdem"for=female">Female</label>
+                  </div>
                 </div>
               </div>
-            </div>
-            <button type="button" onclick="validateDate()">Generate Akan name</button>
-            <!--
-            <div class="inp">
-              <input class="inp1" type="submit" onclick = "validateDate()" value="Generate Akan Name">
-            </div>
-            -->
-            <br>
-            <p class='output'></p>
-            <br>
-          </form>
-        </section>
+              <button type="button" onclick="validateDate()">Generate Akan name</button>
+              <!--
+              <div class="inp">
+                <input class="inp1" type="submit" onclick = "validateDate()" value="Generate Akan Name">
+              </div>
+              -->
+              <br>
+              <p class='output'></p>
+              <br>
+            </form>
+          </section>
+        </div>
       </div>
     </div>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment.min.js"></script>
