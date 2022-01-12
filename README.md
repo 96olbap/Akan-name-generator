@@ -9,7 +9,7 @@ This is a simple webpage takes and uses a user's birthday to generate their Akan
 ## Live link
 https://96olbap.github.io/Akan-name-generator/
 ## Known Bugs
-The generateName function doesn't yet work properly.
+None has been noted thus far.
 ## Technologies Used
 This project has been written in HTML, CSS , javascript, bootstrap
 ## Support and contact details
